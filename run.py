@@ -65,8 +65,6 @@ def display_credentials():
     return Credentials.display_credentials()
 
 # Calling our Functions
-
-
 def main():
     print("Hello. Welcome to Password Locker. Create username...")
     user_name = input()
@@ -101,7 +99,7 @@ def main():
                 save_credentials(create_credentials(account_name, user_name, password))
                 print("\n")
                 print("Account added")
-                print("Account: {account_name} User name: {user_name} Password: {password}")
+                print(f"New account: {account_name} added \nUsername: {user_name} / Password:{password}")
                 print("\n")
 
             elif short_code == "dc":

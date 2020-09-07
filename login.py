@@ -18,19 +18,6 @@ class User:
         """
         User.users_list.append(self)
 
-    # def delete_user(self):
-    #     """
-    #     delete_user method to delete user from the users_list
-    #     """
-    #     User.users_list.remove(self)
-
-    # @classmethod
-    # def display_users(cls):
-    #     """
-    #     Method that returns the users_list
-    #     """
-    #     return cls.users_list
-
 
 class Credentials:
     """
