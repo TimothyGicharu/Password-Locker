@@ -113,7 +113,7 @@ def main():
                 account = input()
 
                 if find_credentials(account):
-                    account = find_by_account_name(account)
+                    account = find_credentials(account)
                     print("{account.user_name} {account.password}")
                     print("\n")
 
