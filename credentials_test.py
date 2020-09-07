@@ -53,7 +53,7 @@ class TestCredentials(unittest.TestCase):
         """
         self.assertEqual(Credentials.display_credentials(), Credentials.credentials_list)
 
-    def test_delete_credential(self):
+    def test_delete_credentials(self):
         """
         test_delete_credential test case to check if a user can delete credentials
         """
