@@ -109,9 +109,8 @@ def main():
 
                     for credentials in display_credentials():
                         print(credentials)
-                        print(
-                            "Account: {credentials.account_name} / Username: {credentials.user_name} / Password: {password}")
-                    print("\n")
+                        print(f"{credentials.account_name} {credentials.user_name} .....{credentials.password}")                 
+                        print("\n")
                 else:
                     print("No accounts saved.")
                     print("\n")
